@@ -11,9 +11,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@nuxt/typescript": "2.8.1",
+    "nuxt": "2.8.1",
+    "nuxt-property-decorator": "2.3.0",
+    "ts-node": "8.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "1.19.1"
   }
 }
