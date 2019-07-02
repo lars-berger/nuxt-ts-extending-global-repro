@@ -1,4 +1,5 @@
 import NuxtConfiguration from '@nuxt/config'
+import './BREAK';
 
 const config: NuxtConfiguration = {
   mode: 'universal',
