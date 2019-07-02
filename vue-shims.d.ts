@@ -1,7 +1,5 @@
-import Vue from "vue";
-
-declare global {
-  interface Array<T> {
-    extraMethod(array): string;
+declare module NodeJS {
+  interface Global {
+    someObject: any
   }
 }
